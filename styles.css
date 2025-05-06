@@ -1,7 +1,7 @@
 /* Base Styles */
 :root {
-    --primary-color: #7a1a1d;
-    --primary-dark: #5a0f12;
+    --primary-color: #5b061b;
+    --primary-dark: rgb(69, 12, 14);
     --secondary-color: #f5e6ca;
     --dark-color: #1a1a1a;
     --dark-secondary: #2a2a2a;
@@ -258,39 +258,6 @@ section {
     height: 300px;
     border-radius: 8px;
     overflow: hidden;
-}
-
-/* Newsletter Section */
-.newsletter {
-    background-color: var(--secondary-color);
-    text-align: center;
-}
-
-.newsletter p {
-    max-width: 600px;
-    margin: 0 auto 2rem;
-    font-size: 1.1rem;
-}
-
-.newsletter-form {
-    display: flex;
-    max-width: 500px;
-    margin: 0 auto;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.newsletter-form input {
-    padding: 0.75rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1rem;
-    flex-grow: 1;
-}
-
-.newsletter-form input:focus {
-    outline: none;
-    border-color: var(--primary-color);
 }
 
 /* Footer */
