@@ -138,6 +138,7 @@ section {
 .hero-content {
     position: relative;
     z-index: 2;
+    padding-bottom: 4rem;
 }
 
 .logo-container {
@@ -145,7 +146,7 @@ section {
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
