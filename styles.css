@@ -1,11 +1,11 @@
 /* Base Styles */
 :root {
-    --primary-color: #460617;
-    --primary-dark: #5c041c;
+    --primary-color: #5c041c;
+    --primary-dark: #330511;
     --secondary-color: #f5e6ca;
     --dark-color: #1a1a1a;
     --dark-secondary: #2a2a2a;
-    --accent-color: #e74c3c;
+    --accent-color: #5c041c;
     --text-light: #ffffff;
     --text-dark: #333333;
     --font-heading: 'Lora', serif;
@@ -172,6 +172,13 @@ section {
     color: var(--secondary-color);
     font-size: 1.5rem;
     animation: bounce 2s infinite;
+    z-index: 3;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.scroll-down:hover {
+    color: var(--accent-color);
 }
 
 @keyframes bounce {
