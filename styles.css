@@ -143,10 +143,15 @@ section {
 
 .logo-container {
     margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
-    max-width: 400px;
+    width: 70vw;
+    max-width: 800px;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -348,7 +353,8 @@ footer {
 
 @media (min-width: 992px) {
     .logo {
-        max-width: 300px;
+        width: 70vw;
+        max-width: 800px;
     }
     
     .hero-text {
@@ -357,6 +363,11 @@ footer {
 }
 
 @media (max-width: 767px) {
+    .logo {
+        width: 70vw;
+        max-width: 400px;
+    }
+    
     h1 {
         font-size: 2.5rem;
     }
