@@ -134,7 +134,7 @@ section {
     width: 100vw;
     height: calc(100% - 10vh);
     background: url('images/hero-bg.jpeg') center top/cover no-repeat;
-    opacity: 0.5;
+    opacity: 1;
     z-index: 1;
     pointer-events: none;
 }
