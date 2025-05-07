@@ -113,7 +113,7 @@ section {
     background-color: var(--primary-dark);
 }
 
-/* Hero Section */
+
 .hero {
     height: 100vh;
     background: linear-gradient(to bottom, var(--primary-color), var(--primary-dark));
