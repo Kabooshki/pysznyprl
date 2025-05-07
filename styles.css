@@ -139,6 +139,29 @@ section {
     position: relative;
     z-index: 2;
     padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+    transform: translate(-50%, -50%);
+    background: url('images/hero-bg.jpeg') center center/cover no-repeat;
+    opacity: 0.13;
+    z-index: 1;
+    pointer-events: none;
+    border-radius: 2rem;
+}
+
+.hero-content > * {
+    position: relative;
+    z-index: 2;
 }
 
 .logo-container {
@@ -146,6 +169,7 @@ section {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -153,6 +177,10 @@ section {
     max-width: 800px;
     height: auto;
     margin: 0 auto;
+    display: block;
+    animation: floatLogo 3.5s ease-in-out infinite;
+    /* If the logo is still visually off-center, uncomment the next line and adjust as needed */
+    /* transform: translateX(-2%); */
 }
 
 .hero-text {
@@ -196,6 +224,11 @@ section {
     60% {
         transform: translateY(-10px) translateX(-50%);
     }
+}
+
+@keyframes floatLogo {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-18px); }
 }
 
 /* About Section */
